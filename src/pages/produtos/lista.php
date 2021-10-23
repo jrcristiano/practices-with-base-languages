@@ -68,7 +68,9 @@
                             href="/produtos/exibir?id=<?php echo $product['id']; ?>">
                                 <i class="fas fa-eye"></i>
                         </a>
-                        <a id="really-remove" class="button-anchor-sm button-danger" href="/produtos/remover?id=1">
+                        <a id="really-remove" 
+                            class="button-anchor-sm button-danger" 
+                            href="/produtos/remover?id=<?php echo $product['id']; ?>">
                             <i class="fas fa-trash"></i>
                         </a>
                     </td>
