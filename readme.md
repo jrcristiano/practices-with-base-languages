@@ -5,5 +5,5 @@
  - PHP;
  - Banco de dados: MySQL;
 
-### Criação da estrutura de banco dados encontra-se no arquivo src/sql/database.sql
+### Criação da estrutura de banco dados encontra-se no arquivo database.sql em /src/sql
 
