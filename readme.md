@@ -7,3 +7,4 @@
 
 ### Criação da estrutura de banco dados encontra-se no arquivo database.sql em /src/sql
 
+### Edite as credenciais do seu banco de dados em /src/Conn.php
