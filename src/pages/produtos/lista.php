@@ -32,7 +32,7 @@
         </a>
     </div>
     <table class="table-striped w-100 mt-4">
-        <thead>
+        <thead class="border-bottom">
             <tr>
                 <th class="col">#</th>
                 <th>Nome</th>

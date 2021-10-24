@@ -26,4 +26,8 @@
         return;
     }
 
+    if ($url == '/') {
+        header('location: /produtos');
+    }
+
     require_once __DIR__ . '/src/pages/not-found.php';
