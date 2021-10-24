@@ -2,6 +2,7 @@
 * {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    outline: none;
 }
 
 body {
@@ -62,6 +63,7 @@ body {
     transition: 0.4s;
 }
 
+
 .button-primary:hover {
     background-color: #0b5ed7;
 }
@@ -104,6 +106,18 @@ body {
 .button-outline-secondary:hover {
     background-color: #555;
     color: #fff;
+}
+
+.button-success {
+    border: 0;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.button-success:hover {
+    background-color: #28a745;
 }
 
 /* width */
@@ -152,8 +166,16 @@ body {
     margin-left: 20px;
 }
 
+.ml-3 {
+    margin-left: 30px;
+}
+
 .mr-2 {
     margin-right: 20px;
+}
+
+.mr-3 {
+    margin-right: 30px;
 }
 
 .mx-2 {
@@ -246,6 +268,10 @@ body {
 /* Text */
 .text-dark {
     color: #333;
+}
+
+.text-danger {
+    color: red;
 }
 
 .text-secondary {
@@ -361,4 +387,15 @@ td, th {
 .border-top-bottom-cyan {
     border-top: 1px solid #6cb2eb;
     border-bottom: 1px solid #6cb2eb;
+}
+
+/* Inputs */
+
+.form-control {
+    width:100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
 }
